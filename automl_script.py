@@ -10,10 +10,10 @@ from loguru import logger
 data_train = pd.read_csv("train_dataset.csv", encoding='UTF-8', sep=",")
 data_test = pd.read_csv("test_dataset.csv", encoding='UTF-8', sep=",")
 
-X_train = data_train.drop(columns=['TAUX_DE_REMPLISSAGE'])
+X_train = data_train.drop(columns=['TAUX_DE_REMPLISSAGE', 'TAUX_DE_VENTE', 'UPDATE_TIMESTAMP_UTC'])
 y_train = data_train['TAUX_DE_REMPLISSAGE']
 
-X_test = data_test.drop(columns=['TAUX_DE_REMPLISSAGE'])
+X_test = data_test.drop(columns=['TAUX_DE_REMPLISSAGE', 'TAUX_DE_VENTE', 'UPDATE_TIMESTAMP_UTC'])
 y_test = data_test['TAUX_DE_REMPLISSAGE']
 
 logger.info("X_train shape:")
