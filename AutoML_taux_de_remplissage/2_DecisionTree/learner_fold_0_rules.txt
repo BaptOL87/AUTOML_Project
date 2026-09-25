@@ -1,0 +1,32 @@
+if (SALES_CUMUL > 100.5) and (SALES_CUMUL <= 2466.0) and (AVG_ATTENDANCE_ZONE <= 3496.93) and (REPUTATION_LEVEL_ADVERSAIRE <= 1.5) then response: 0.728 | based on 2,619 samples
+
+if (SALES_CUMUL <= 100.5) and (AVG_ATTENDANCE_ZONE > 184.406) and (ABOVENDUMAX <= 641.0) and (AVG_ATTENDANCE_ZONE <= 343.201) then response: 0.596 | based on 2,451 samples
+
+if (SALES_CUMUL <= 100.5) and (AVG_ATTENDANCE_ZONE > 184.406) and (ABOVENDUMAX <= 641.0) and (AVG_ATTENDANCE_ZONE > 343.201) then response: 0.491 | based on 1,609 samples
+
+if (SALES_CUMUL <= 100.5) and (AVG_ATTENDANCE_ZONE > 184.406) and (ABOVENDUMAX > 641.0) and (AVG_ATTENDANCE_ZONE <= 2404.392) then response: 0.642 | based on 753 samples
+
+if (SALES_CUMUL > 100.5) and (SALES_CUMUL <= 2466.0) and (AVG_ATTENDANCE_ZONE <= 3496.93) and (REPUTATION_LEVEL_ADVERSAIRE > 1.5) then response: 0.81 | based on 734 samples
+
+if (SALES_CUMUL > 100.5) and (SALES_CUMUL > 2466.0) and (ZONE > 6.5) and (MATCH_TEMPERATURE > 6.55) then response: 0.919 | based on 671 samples
+
+if (SALES_CUMUL > 100.5) and (SALES_CUMUL <= 2466.0) and (AVG_ATTENDANCE_ZONE > 3496.93) and (COMPETITION <= 1.5) then response: 0.63 | based on 555 samples
+
+if (SALES_CUMUL <= 100.5) and (AVG_ATTENDANCE_ZONE <= 184.406) and (SALES_CUMUL <= 12.5) and (MATCH_ID <= 64.5) then response: 0.22 | based on 358 samples
+
+if (SALES_CUMUL <= 100.5) and (AVG_ATTENDANCE_ZONE > 184.406) and (ABOVENDUMAX > 641.0) and (AVG_ATTENDANCE_ZONE > 2404.392) then response: 0.815 | based on 305 samples
+
+if (SALES_CUMUL > 100.5) and (SALES_CUMUL > 2466.0) and (ZONE > 6.5) and (MATCH_TEMPERATURE <= 6.55) then response: 0.841 | based on 277 samples
+
+if (SALES_CUMUL > 100.5) and (SALES_CUMUL > 2466.0) and (ZONE <= 6.5) and (AVERAGE_PRICE_ZOT <= 0.713) then response: 0.716 | based on 238 samples
+
+if (SALES_CUMUL > 100.5) and (SALES_CUMUL > 2466.0) and (ZONE <= 6.5) and (AVERAGE_PRICE_ZOT > 0.713) then response: 0.852 | based on 134 samples
+
+if (SALES_CUMUL <= 100.5) and (AVG_ATTENDANCE_ZONE <= 184.406) and (SALES_CUMUL > 12.5) and (SALES_CUMUL <= 35.0) then response: 0.375 | based on 118 samples
+
+if (SALES_CUMUL > 100.5) and (SALES_CUMUL <= 2466.0) and (AVG_ATTENDANCE_ZONE > 3496.93) and (COMPETITION > 1.5) then response: 0.365 | based on 105 samples
+
+if (SALES_CUMUL <= 100.5) and (AVG_ATTENDANCE_ZONE <= 184.406) and (SALES_CUMUL > 12.5) and (SALES_CUMUL > 35.0) then response: 0.534 | based on 82 samples
+
+if (SALES_CUMUL <= 100.5) and (AVG_ATTENDANCE_ZONE <= 184.406) and (SALES_CUMUL <= 12.5) and (MATCH_ID > 64.5) then response: 0.829 | based on 4 samples
+

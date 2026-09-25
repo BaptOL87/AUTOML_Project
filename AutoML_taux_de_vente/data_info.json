@@ -1,0 +1,192 @@
+{
+    "columns": [
+        "MATCH_ID",
+        "MATCH_ZONE_J_OBSERVATION_ID",
+        "MATCH_DATE",
+        "MATCH_TIME",
+        "ZONE",
+        "ADVERSAIRE",
+        "J_MOINS",
+        "PRIX_MOYEN_ZONE",
+        "AVERAGE_PRICE_ZOT",
+        "NB_CATEGORIES",
+        "AYANTDROITMAX",
+        "ABOVENDUMAX",
+        "INVITMAX",
+        "FORFAIT_AND_REPORT",
+        "SALES_CUMUL",
+        "ON_3_DAY_SALES_ROLLING_CUMUL",
+        "AVG_ATTENDANCE_ZONE",
+        "OLRANKB4MATCH",
+        "VICTORY_LOSS_TREND_OL",
+        "VICTORY_LOSS_TREND_ADVERSAIRE",
+        "MATCH_TEMPERATURE",
+        "NUMBER_OF_HOME_MATCHES_ON_LAST_30_DAYS",
+        "SAISON",
+        "COMPETITION",
+        "COMPETITION_STAGE",
+        "REPUTATION_LEVEL_ADVERSAIRE",
+        "IS_HOLIDAYS",
+        "BACK_TO_SCHOOL"
+    ],
+    "rows": 14685,
+    "cols": 28,
+    "target_is_numeric": true,
+    "columns_info": {
+        "MATCH_ID": [
+            "categorical",
+            "many_categories"
+        ],
+        "MATCH_ZONE_J_OBSERVATION_ID": [
+            "text_transform"
+        ],
+        "MATCH_DATE": [
+            "categorical",
+            "many_categories"
+        ],
+        "MATCH_TIME": [
+            "categorical",
+            "few_categories"
+        ],
+        "ZONE": [
+            "categorical",
+            "many_categories"
+        ],
+        "ADVERSAIRE": [
+            "categorical",
+            "many_categories"
+        ],
+        "J_MOINS": [
+            "scale"
+        ],
+        "PRIX_MOYEN_ZONE": [
+            "missing_values",
+            "scale"
+        ],
+        "AVERAGE_PRICE_ZOT": [
+            "missing_values",
+            "scale"
+        ],
+        "NB_CATEGORIES": [
+            "scale"
+        ],
+        "AYANTDROITMAX": [
+            "missing_values",
+            "scale"
+        ],
+        "ABOVENDUMAX": [
+            "missing_values",
+            "scale"
+        ],
+        "INVITMAX": [
+            "missing_values",
+            "scale"
+        ],
+        "FORFAIT_AND_REPORT": [
+            "missing_values",
+            "scale"
+        ],
+        "SALES_CUMUL": [
+            "missing_values",
+            "scale"
+        ],
+        "ON_3_DAY_SALES_ROLLING_CUMUL": [
+            "scale"
+        ],
+        "AVG_ATTENDANCE_ZONE": [
+            "scale"
+        ],
+        "OLRANKB4MATCH": [
+            "scale"
+        ],
+        "VICTORY_LOSS_TREND_OL": [
+            "scale"
+        ],
+        "VICTORY_LOSS_TREND_ADVERSAIRE": [
+            "missing_values",
+            "scale"
+        ],
+        "MATCH_TEMPERATURE": [
+            "scale"
+        ],
+        "NUMBER_OF_HOME_MATCHES_ON_LAST_30_DAYS": [
+            "scale"
+        ],
+        "SAISON": [
+            "categorical",
+            "few_categories"
+        ],
+        "COMPETITION": [
+            "categorical",
+            "few_categories"
+        ],
+        "COMPETITION_STAGE": [
+            "categorical",
+            "few_categories"
+        ],
+        "REPUTATION_LEVEL_ADVERSAIRE": [
+            "categorical",
+            "few_categories"
+        ],
+        "IS_HOLIDAYS": [
+            "categorical",
+            "few_categories"
+        ],
+        "BACK_TO_SCHOOL": [
+            "categorical",
+            "few_categories"
+        ]
+    },
+    "columns_values": {
+        "MATCH_TIME": [
+            "20:45:00.000",
+            "21:00:00.000",
+            "18:30:00.000",
+            "17:05:00.000",
+            "15:00:00.000",
+            "17:00:00.000",
+            "19:00:00.000",
+            "21:10:00.000",
+            "20:30:00.000",
+            "21:05:00.000",
+            "18:45:00.000",
+            "17:15:00.000",
+            "13:00:00.000"
+        ],
+        "SAISON": [
+            "2023/2024",
+            "2024/2025",
+            "2025/2026"
+        ],
+        "COMPETITION": [
+            "Coupe de France",
+            "Ligue 1",
+            "UEFA Europa League"
+        ],
+        "COMPETITION_STAGE": [
+            "Semi-finals",
+            "Regular Season",
+            "Quarter-finals",
+            "Round of 16",
+            "Group Stage",
+            "Round of 64"
+        ],
+        "REPUTATION_LEVEL_ADVERSAIRE": [
+            "faible",
+            "moyenne",
+            "\u00e9lev\u00e9e"
+        ],
+        "IS_HOLIDAYS": [
+            "False",
+            "True"
+        ],
+        "BACK_TO_SCHOOL": [
+            "False",
+            "True"
+        ]
+    },
+    "target_info": [],
+    "n_features": 28,
+    "is_sample_weighted": false,
+    "is_fairness_applied": false
+}

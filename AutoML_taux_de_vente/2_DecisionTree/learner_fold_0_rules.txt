@@ -1,0 +1,32 @@
+if (SALES_CUMUL <= 1147.5) and (SALES_CUMUL > 42.5) and (ABOVENDUMAX > 59.0) and (ABOVENDUMAX <= 2390.0) then response: 0.363 | based on 2,401 samples
+
+if (SALES_CUMUL <= 1147.5) and (SALES_CUMUL <= 42.5) and (ABOVENDUMAX > 226.0) and (ZONE > 3.5) then response: 0.056 | based on 2,083 samples
+
+if (SALES_CUMUL <= 1147.5) and (SALES_CUMUL <= 42.5) and (ABOVENDUMAX > 226.0) and (ZONE <= 3.5) then response: 0.134 | based on 1,093 samples
+
+if (SALES_CUMUL <= 1147.5) and (SALES_CUMUL <= 42.5) and (ABOVENDUMAX <= 226.0) and (AVG_ATTENDANCE_ZONE <= 254.902) then response: 0.216 | based on 1,077 samples
+
+if (SALES_CUMUL <= 1147.5) and (SALES_CUMUL > 42.5) and (ABOVENDUMAX > 59.0) and (ABOVENDUMAX > 2390.0) then response: 0.151 | based on 733 samples
+
+if (SALES_CUMUL <= 1147.5) and (SALES_CUMUL > 42.5) and (ABOVENDUMAX <= 59.0) and (NB_CATEGORIES > 10.5) then response: 0.556 | based on 523 samples
+
+if (SALES_CUMUL > 1147.5) and (ABOVENDUMAX <= 411.0) and (SALES_CUMUL > 2280.5) and (ON_3_DAY_SALES_ROLLING_CUMUL > 268.5) then response: 0.88 | based on 515 samples
+
+if (SALES_CUMUL > 1147.5) and (ABOVENDUMAX > 411.0) and (SALES_CUMUL > 1759.5) and (AVG_ATTENDANCE_ZONE <= 5086.521) then response: 0.649 | based on 480 samples
+
+if (SALES_CUMUL > 1147.5) and (ABOVENDUMAX <= 411.0) and (SALES_CUMUL <= 2280.5) and (INVITMAX <= 295.5) then response: 0.689 | based on 475 samples
+
+if (SALES_CUMUL > 1147.5) and (ABOVENDUMAX <= 411.0) and (SALES_CUMUL > 2280.5) and (ON_3_DAY_SALES_ROLLING_CUMUL <= 268.5) then response: 0.964 | based on 446 samples
+
+if (SALES_CUMUL > 1147.5) and (ABOVENDUMAX > 411.0) and (SALES_CUMUL <= 1759.5) and (ABOVENDUMAX <= 1661.0) then response: 0.583 | based on 279 samples
+
+if (SALES_CUMUL <= 1147.5) and (SALES_CUMUL > 42.5) and (ABOVENDUMAX <= 59.0) and (NB_CATEGORIES <= 10.5) then response: 0.74 | based on 262 samples
+
+if (SALES_CUMUL <= 1147.5) and (SALES_CUMUL <= 42.5) and (ABOVENDUMAX <= 226.0) and (AVG_ATTENDANCE_ZONE > 254.902) then response: 0.457 | based on 246 samples
+
+if (SALES_CUMUL > 1147.5) and (ABOVENDUMAX > 411.0) and (SALES_CUMUL <= 1759.5) and (ABOVENDUMAX > 1661.0) then response: 0.431 | based on 197 samples
+
+if (SALES_CUMUL > 1147.5) and (ABOVENDUMAX > 411.0) and (SALES_CUMUL > 1759.5) and (AVG_ATTENDANCE_ZONE > 5086.521) then response: 0.758 | based on 128 samples
+
+if (SALES_CUMUL > 1147.5) and (ABOVENDUMAX <= 411.0) and (SALES_CUMUL <= 2280.5) and (INVITMAX > 295.5) then response: 0.908 | based on 75 samples
+
