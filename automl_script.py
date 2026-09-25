@@ -10,10 +10,12 @@ from loguru import logger
 data_train = pd.read_csv("train_dataset.csv", encoding='UTF-8', sep=",")
 data_test = pd.read_csv("test_dataset.csv", encoding='UTF-8', sep=",")
 
-X_train = data_train.drop(columns=['TAUX_DE_REMPLISSAGE', 'TAUX_DE_VENTE', 'UPDATE_TIMESTAMP_UTC'])
+DROP = ['TAUX_DE_REMPLISSAGE', 'TAUX_DE_VENTE', 'UPDATE_TIMESTAMP_UTC']
+
+X_train = data_train.drop(columns=DROP)
 y_train = data_train['TAUX_DE_REMPLISSAGE']
 
-X_test = data_test.drop(columns=['TAUX_DE_REMPLISSAGE', 'TAUX_DE_VENTE', 'UPDATE_TIMESTAMP_UTC'])
+X_test = data_test.drop(columns=DROP)
 y_test = data_test['TAUX_DE_REMPLISSAGE']
 
 logger.info("X_train shape:")
@@ -35,13 +37,13 @@ logger.info(y_test.shape)
 
 automl = AutoML(   
             mode="Perform",    
-            validation_strategy={"validation_type": "custom"},   
+            # validation_strategy={"validation_type": "custom"},   
             eval_metric="mae",    
-            results_path="automl_chrono"
+            results_path="AutoML_taux_de_remplissage"
             )
 
 
-automl.fit(X_train, y_train, cv=[(X_train, y_train)])
+automl.fit(X_train, y_train)
 predictions = automl.predict(X_test)
 report = automl.report()  # also writes AutoML_1/README.html on disk
 
